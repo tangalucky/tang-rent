@@ -1,0 +1,35 @@
+.personal-container {
+  padding: 10rpx;
+}
+.personal-container .personal {
+  padding: 30rpx 20rpx;
+  border-bottom: 2px solid #dcfff5;
+}
+.personal-container .personal ._img {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 30rpx;
+}
+.personal-container .personal .name {
+  font-size: 34rpx;
+}
+.personal-container .function {
+  display: flex;
+  width: 730rpx;
+  margin: 50rpx 0;
+}
+.personal-container .function view {
+  display: flex;
+  flex-direction: column;
+  color: #242424;
+  width: 33.3%;
+  align-items: center;
+  font-size: 28rpx;
+}
+.personal-container .function view .iconfont {
+  font-size: 65rpx;
+  margin-bottom: 10rpx;
+}
+

@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Message/Message",
+    "pages/Personal/Personal",
+    "pages/Detail/Detail",
+    "pages/Publish/Publish",
+    "pages/Chat/Chat",
+    "pages/Login/Login",
+    "pages/MyPublish/MyPublish"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#84AF9B",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#868686",
+    "selectedColor": "#00966b",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "/static/image/tabbar/zhuye1.png",
+        "selectedIconPath": "/static/image/tabbar/zhuye.png"
+      },
+      {
+        "pagePath": "pages/Message/Message",
+        "text": "消息",
+        "iconPath": "/static/image/tabbar/msg1.png",
+        "selectedIconPath": "/static/image/tabbar/msg.png"
+      },
+      {
+        "pagePath": "pages/Personal/Personal",
+        "text": "我的",
+        "iconPath": "/static/image/tabbar/me1.png",
+        "selectedIconPath": "/static/image/tabbar/me.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "top-bar": "/components/TopBar/TopBar"
+  }
+}

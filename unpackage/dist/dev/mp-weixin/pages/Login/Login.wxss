@@ -1,0 +1,44 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 750rpx;
+}
+.login-container .avatar-wrapper {
+  background-color: white;
+  border: 1px solid #00966b;
+  border-radius: 20rpx;
+  padding: 15rpx;
+  color: #717171;
+}
+.login-container .avatar-wrapper .avatar {
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+}
+.login-container .name-wrapper {
+  height: 70rpx;
+  width: 460rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.login-container .name-wrapper .iconfont {
+  font-size: 54rpx;
+  color: #00966b;
+}
+.login-container .name-wrapper .weui-input {
+  border: 1px solid #00966b;
+  border-radius: 20rpx;
+  padding: 10rpx 20rpx;
+  display: inline-block;
+}
+.login-container .login {
+  border-radius: 20rpx;
+  background-color: #ad0914;
+  color: white;
+  font-weight: bold;
+  padding: 20rpx 35rpx;
+}
+

@@ -1,0 +1,48 @@
+.message-container {
+  height: 100vh;
+}
+.message-container .nomsg {
+  width: 750rpx;
+  text-align: center;
+  margin: 100rpx 0;
+}
+.message-container .message-item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 25rpx 25rpx;
+}
+.message-container .message-item .reddot {
+  position: absolute;
+  background-color: red;
+  height: 28rpx;
+  width: 28rpx;
+  border-radius: 50%;
+  top: 28rpx;
+  left: 105rpx;
+}
+.message-container .message-item image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+.message-container .message-item .msg {
+  display: flex;
+  flex-direction: column;
+}
+.message-container .message-item .msg text {
+  margin: 5rpx 0;
+  width: 300rpx;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.message-container .message-item .msg .name {
+  font-weight: bold;
+}
+.message-container .message-item .time {
+  font-size: 13px;
+  line-height: 100rpx;
+}
+

@@ -1,0 +1,28 @@
+.top {
+  width: 730rpx;
+  height: 80rpx;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  align-items: center;
+}
+.top .port {
+  font-size: 13px;
+}
+.top .port text {
+  color: #909090;
+  font-size: 12px;
+}
+.top .title {
+  width: 250rpx;
+  text-align: center;
+}
+.top .publish {
+  padding: 0 20rpx;
+  margin: 0 0rpx;
+}
+.top .publish text {
+  color: #ad0914;
+  margin: 0 10rpx;
+}
+

@@ -1,0 +1,1 @@
+<view class="top"><text class="port"><text class="iconfont icon-zhandian"></text>上海</text><view class="title">糖糖租房</view><button class="mini-btn publish" type="default" size="mini" data-event-opts="{{[['tap',[['toPublish',['$event']]]]]}}" bindtap="__e"><text class="iconfont icon-fabu"></text>我要发布</button></view>
